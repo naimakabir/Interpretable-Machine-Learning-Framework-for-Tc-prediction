@@ -6,7 +6,7 @@ This release provides the full pipeline for predicting superconducting critical 
 
 - **Feature selection**: `SHAP_feature_selection.ipynb` implements SHAP-based selection on the UCI Superconductivity Dataset (21,263 compounds, 81 features).
 - **Hyperparameter tuning**: `tunning_50_HPO/` contains optimization runs for the top 50 selected features.
-- **Evaluation**: `evaluation/` holds benchmarking scripts against Hamidieh (2018) and Shams et al. (2023).
+- **Evaluation**: `evaluation/` contains statistical testing scripts.
 - **External validation**: `External_validation_.ipynb` tests the trained model on 250 out-of-distribution compounds from Stanev et al.
 - **Data**: `train_raw.csv`, `top50_train.csv`, `top50_test.csv`, and `stanev_250_unseen_compounds.csv` provide the training, test, and external validation splits.
 
